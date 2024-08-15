@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('image/p.jpg');
+    background-size: 1000px;
+    background-position: center center;
+}
+
+
+.paper{
+    position: absolute;
+    background-image: url('image/paper1.jpg');
+    background-size: 500px;
+    background-position: center center;
+    padding: 20px 100px;
+    transform: rotateZ(-5deg);
+    box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+
+}
+
+.hbd{
+  background-image: url('image/paper1.jpg');
+  background-size: 700px;
+  background-position: center center;
+  padding: 40px 80px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+
+
+
+  img {
+    max-height: 400px;
+    width: 200px;
+    /*background-position: center center;*/
+    user-select: none;
+  }
+
+
+}
+
+.ars{
+  position: absolute;
+  background-image: url('image/paper1.jpg');
+  background-size: 700px;
+  background-position: center center;
+  padding: 10px 80px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+
+
+}
+
+.ar {
+  position: absolute;
+  background-image: url('image/paper1.jpg');
+  background-size: 700px;
+  background-position: center center;
+  padding: 10px 80px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+ /* display: flex; /* Make .ar a flex container */
+  justify-content: center; /* Center the img horizontally */
+  align-items: flex-end; /* Align the img to the bottom of .ar */
+  /*height: 100vh; /* Optional: Set the container height to 100% of the viewport height */
+}
+
+.ar img {
+  max-height: 400px;
+  width: 200px;
+  user-select: none;
+}
+
+
+.an {
+  position: absolute;
+  background-image: url('image/paper1.jpg');
+  background-size: 800px;
+  background-position: center center;
+  padding: 20px 20px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+
+}
+
+.an img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: contain;
+  /*user-select: none;*/
+}
+
+.ann {
+  position: absolute;
+  background-image: url('image/paper1.jpg');
+  background-size: 500px;
+  background-position: center center;
+  padding: 20px 100px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+
+}
+
+.ann img {
+  max-height: 400px;
+  width: 100%;
+  object-fit: contain;
+  /*user-select: none;*/
+}
+
+.hbd {
+  position: absolute;
+  background-image: url('image/paper1.jpg');
+  background-size: 500px;
+  background-position: center center;
+  padding: 20px 100px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+
+}
+
+.hbd img {
+  max-height: 1500px;
+  width: 100%;
+  object-fit: contain;
+  /*user-select: none;*/
+}
+
+
+.z {
+  position: absolute;
+  background-image: url('image/paper1.jpg');
+  background-size: 700px;
+  background-position: center center;
+  padding: 10px 80px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+ /* display: flex; /* Make .ar a flex container */
+  justify-content: center; /* Center the img horizontally */
+  align-items: flex-end; /* Align the img to the bottom of .ar */
+  /*height: 100vh; /* Optional: Set the container height to 100% of the viewport height */
+}
+
+.z img {
+  max-height: 400px;
+  width: 200px;
+  user-select: none;
+}
+
+/*.paper.image {
+    padding: 20px;
+  }*/
+  .paper.image p {
+    font-size: 8px;
+  }
+  
+  img {
+    max-height: 400px;
+    width: 100%;
+    /*background-position: center center;*/
+    user-select: none;
+  }
+  
+
+
+p {
+    font-family: 'Zeyada';
+    font-size: 30px;
+    color: rgb(0,0,100);
+    opacity: 0.75;
+    user-select: none;
+    
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .paper {
+        padding: 10px 20px;  /* Reduce padding for smaller screens */
+        background-size: 100%;  /* Adjust background size */
+        transform: rotateZ(0deg);  /* Simplify rotation on smaller screens */
+    }
+
+    p {
+        font-size: 20px;  /* Decrease font size */
+    }
+
+    img {
+        max-height: 200px;  /* Smaller image size */
+        width: 100%;  /* Maintain aspect ratio */
+    }
+}
